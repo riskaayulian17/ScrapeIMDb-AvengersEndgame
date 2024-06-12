@@ -23,5 +23,5 @@ jobs:
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
       shell: Rscript {0} 
-    - name: Scrape Data Tiktok Hashtag
+    - name: Scrape Data Review Film
       run: Rscript Scrapping_IMdb.R
