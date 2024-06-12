@@ -81,5 +81,5 @@ db <- "scraping"
 # koneksi ke mongoDB
 url <- "mongodb+srv://yuliantiriska:riska12345@cluster0.k7q5ikf.mongodb.net/"
 Review <- mongo(collection=collection, db=db, url=url)
-Review$insert(Reviews)
-rm(Reviews)
+Review$insert(data_scrape)
+rm(Review)
