@@ -75,9 +75,9 @@ data_scrape <- Reviews[srape_data,]
 message('Input Data to MongoDB Atlas')
 library(mongolite)
 # nama koleksi
-collection <- "ReviewFilm"
+collection <- "Review_Film"
 # nama database
-db <- "scraping"
+db <- "Review_Film"
 # koneksi ke mongoDB
 url <- "mongodb+srv://yuliantiriska:riska12345@cluster0.k7q5ikf.mongodb.net/"
 Review <- mongo(collection=collection, db=db, url=url)
