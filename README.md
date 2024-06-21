@@ -108,3 +108,19 @@ Rating dan ulasan di IMDb mencerminkan penerimaan yang luar biasa positif dari p
 ## Link IMDb
 
 - [Avengers: Endgame di IMDb](https://www.imdb.com/title/tt4154796/)
+
+## Dokumen
+Berikut adalah salah satu contoh dokumen di MongoDB untuk Review Film "Avengers: Endgame" pada website IMDb :
+```mongodb
+{
+  "_id": {
+    "$oid": "66690b120ec5c12cde07f8b1"
+  },
+  "User": "ymyuseda",
+  "Rating": 10,
+  "Review": "Rating 10/10\nAbsolute perfection end game !! Good acting performance to all the characters. Great cgi's. Truly epic & perfect ending to a long journey of marvel movie. Go see it you wont regret it !! Perfection Marvel Endgame !!",
+  "_row": "117"
+}
+```
+## Pengembang
++ [Riska Yulianti](https://github.com/riskaayulian17) (G1501231058)
